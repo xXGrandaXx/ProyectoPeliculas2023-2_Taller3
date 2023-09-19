@@ -28,8 +28,14 @@ En resumen, la similitud de coseno compara la orientación de dos vectores en lu
 
 El script [movie_recommendations.py](movie_recommendations.py) muestra como podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
 
+Al ejecutar el Script puede ver lo siguiente:
 
 ![Fork 1](imgs/sr2.png)
+
+En este caso, los embeddings nos dicen que Salvando al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
+
+Además nos dicen que si quisiera ver una película de la segunda guerra mundial, debería ver Salvando al soldado Ryan.
+
 
 __Ejercicio 1:__ Modifique el modelo Movie y agregue un campo adicional que sea el embedding de la descripción.
 
