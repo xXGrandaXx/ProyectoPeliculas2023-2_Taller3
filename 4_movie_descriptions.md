@@ -21,6 +21,17 @@ que se va a utilizar para alimentar la base de datos de películas. Para esto no
 ````shell
 cd DjangoProjectBase
 ````
+Si corre el servidor se dará cuenta que este es el proyecto que se creó en el workshop 2
+
+````shell
+python manage.py runserver
+````
+![Fork 1](imgs/md2.png)
+
+Ahora dentro de la carpeta de la app movie debe crear una carpeta management y dentro de esta una carpeta commands. Después, debe crear el archivo add_descriptions_db.py.
+
+![Fork 1](imgs/md2.png)
+
 
 
 
