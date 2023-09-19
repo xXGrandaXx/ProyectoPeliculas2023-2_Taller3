@@ -32,7 +32,7 @@ Ahora, se debe crear el archivo ``modify_image_paths_db.py`` en la carpeta ``mov
 Una vez haya copiado el archivo en la ubicación mencionada, asegúrese de que la consola esté ubicada en ``DjangoProjectBase`` y ejecute el comando:
 
 ````shell
-python manage.py modify_image_paths
+python manage.py modify_image_paths_db
 ````
 
 Cuando ejecute el servidor podrá notar que la imagen de cada película corresponde a la ilustración creada por la API de generación de imágenes
