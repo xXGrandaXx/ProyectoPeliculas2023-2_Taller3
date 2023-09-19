@@ -56,11 +56,11 @@ Almacene este archivo en la carpeta raíz del proyecto
   </a>
   </div>
 
-Cree el archivo ``.gitignore`` en la raíz del proyecto (si el archivo ya está creado, puede omitir este paso). Para crearlo, debe ubicarse en la raíz del proyecto y escribir la instrucción ``echo. > .gitignore`
+Cree el archivo ``.gitignore`` en la raíz del proyecto (si el archivo ya está creado, puede omitir este paso). Para crearlo, debe ubicarse en la raíz del proyecto y escribir la instrucción ``echo. > .gitignore``
 
  <div align="center">
   <a>
-    <img src="imgs/key7_5.png">
+    <img src="imgs/key7_5.PNG">
   </a>
  </div>
 
