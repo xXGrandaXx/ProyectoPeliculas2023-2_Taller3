@@ -72,3 +72,29 @@ Note que está agregando un campo ``emb`` de tipo ``models.BinaryField``
 Recuerde que cada que se hace una modificación a la base de datos debe hacer las migraciones.
 
 Finalmente, para modificar los items de la base de datos (en este caso agregar los embeddings), puede crear un archivo ``add_embeddings_db.py`` en la carpeta ``movie/management/command``. Siga la estructura del archivo [aux_files/modify_image_paths_db.py](aux_files/modify_image_paths_db.py)
+
+````python
+from django.core.management.base import BaseCommand
+from movie.models import Movie
+import json
+import os
+from dotenv import load_dotenv, find_dotenv
+
+_ = load_dotenv('../openAI.env')
+openai.api_key  = os.environ['openAI_api_key']
+
+class Command(BaseCommand):
+    help = 'Modify path of images'
+
+    def handle(self, *args, **kwargs):
+        ##Código para leer los embeddings del archivo .json 
+        items = Movie.objects.all()
+        for item in items:
+            #Código para convertir los embeddings en binarios
+            #Código para modificar el campo emb en la base de datos con el binario 
+            item.save()
+        
+        self.stdout.write(self.style.SUCCESS(f'Successfully updated item embeddings'))
+        
+````
+
