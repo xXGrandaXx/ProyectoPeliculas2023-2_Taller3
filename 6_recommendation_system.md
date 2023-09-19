@@ -26,7 +26,7 @@ __Aplicación a Embeddings:__ Cuando se utiliza con embeddings, la similitud de 
 
 En resumen, la similitud de coseno compara la orientación de dos vectores en lugar de su magnitud, siendo una métrica esencial para evaluar la similitud semántica entre embeddings en el PLN.
 
-El script [movie_recommendations.py](movie_recommendations.py) muestra como podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
+El script [movie_recommendations.py](movie_recommendations.py) muestra cómo podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
 
 Al ejecutar el Script puede ver lo siguiente:
 
