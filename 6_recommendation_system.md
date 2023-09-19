@@ -4,7 +4,7 @@ Para el sistema de recomendación de películas se utilizará la API de generaci
 
 ![Fork 1](imgs/sr1.svg)
 
-__Concepto Básico:__ Un embedding es básicamente una proyección de un objeto no vectorial en un espacio vectorial. En el contexto de PLN, los embeddings convierten palabras o frases en vectores de números reales.
+__Concepto Básico:__ Un embedding es básicamente una proyección de un objeto no vectorial en un espacio vectorial. En el contexto de PLN (procesamiento de lenguaje natural), los embeddings convierten palabras o frases en vectores de números reales.
 
 __Utilidad:__ Estos vectores capturan la semántica y las relaciones contextuales entre las palabras. Palabras con significados similares o que a menudo aparecen en el mismo contexto tendrán embeddings similares, es decir, sus vectores estarán cerca en el espacio vectorial.
 
@@ -14,7 +14,7 @@ La similitud de coseno mide el coseno del ángulo entre dos vectores, en este ca
 
 Funciona de la siguiente manera:
 
-Fórmula: La similitud de coseno entre dos vectores AA y BB se calcula como el producto punto de los vectores dividido por el producto de sus magnitudes:
+__Fórmula__: La similitud de coseno entre dos vectores AA y BB se calcula como el producto punto de los vectores dividido por el producto de sus magnitudes:
 
 $similitud(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$
 
