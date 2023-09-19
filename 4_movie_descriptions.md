@@ -34,9 +34,9 @@ Ahora dentro de la carpeta de la app movie debe crear una carpeta management y d
 
 ![Fork 1](imgs/md3.png)
 
-Este archivo, que se utilizará para pasar la información del archivo .json a la base de datos de películas de la aplicación de Django. El contenido de este archivo se encuentra en [add_descriptions_db.py](aux_files/add_descriptions_db.py)
+Este archivo se utilizará para pasar la información del archivo ``movie_descriptions.json`` a la base de datos de películas de la aplicación de Django. El contenido de este archivo se encuentra en [add_descriptions_db.py](aux_files/add_descriptions_db.py)
 
-Para evitar un error dado que las películas no tienen imágenes, debe ir al archivo movie/models.py y modificar la línea 8 de la siguiente forma:
+Para evitar un error dado que las películas no tienen imágenes, debe ir al archivo ``movie/models.py`` y modificar la línea 8 de la siguiente forma:
 
 ````python
 image = models.ImageField(upload_to='movie/images/', default = 'movie/images/default.jpg')
