@@ -30,3 +30,21 @@ En resumen, la similitud de coseno compara la orientación de dos vectores en lu
 
 El script [movie_recommendations.py](movie_recommendations.py) muestra como podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
 
+__Ejercicio 1:__ Modifique el modelo Movie y agregue un campo adicional que sea el embedding de la descripción.
+
+Un vector no se puede agregar directamente a la base de datos, por lo tanto, deberá crear un archivo binario que pueda almacenar como un campo de tipo __BinaryField__.
+
+En el siguiente ejemplo puede ver como crear un archivo binario a partir de una lista y como recuperar la lista a partir del archivo binario
+
+````python
+from openai.embeddings_utils import get_embedding, cosine_similarity
+import numpy as np
+
+#Generar binario
+desc = "película de la segunda guerra mundial"
+emb = get_embedding(desc,engine='text-embedding-ada-002')
+
+#Recuperar lista a partir del archivo binario
+emb_binary = np.array(emb).tobytes()
+rec_emb = list(np.frombuffer(emb_binary, dtype=arr.dtype))
+````
