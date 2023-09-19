@@ -80,7 +80,7 @@ Note que está agregando un campo ``emb`` de tipo ``models.BinaryField``
 
 Recuerde que cada que se hace una modificación al modelo se deben hacer las migraciones.
 
-Finalmente, para modificar los items de la base de datos (en este caso agregar los embeddings), puede crear un archivo ``add_embeddings_db.py`` en la carpeta ``movie/management/command``. Siga la estructura de los archivo [aux_files/modify_image_paths_db.py](aux_files/modify_image_paths_db.py) y [aux_files/add_descriptions_db.py](aux_files/add_descriptions_db.py)
+Finalmente, para modificar los items de la base de datos (en este caso agregar los embeddings), puede crear un archivo ``add_embeddings_db.py`` en la carpeta ``movie/management/command``. Tome como ejemplo la estructura de los archivos [modify_image_paths_db.py](aux_files/modify_image_paths_db.py) y [add_descriptions_db.py](aux_files/add_descriptions_db.py)
 
 ````python
 from django.core.management.base import BaseCommand
