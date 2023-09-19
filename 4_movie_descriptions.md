@@ -13,6 +13,8 @@ Cuando ejecute el script, deberá ver en la consola algo de la siguiente forma:
 
 ![Fork 1](imgs/md1.png)
 
+Puede ver que se imprime el nombre de la película, el prompt completo y la descripción obtenida.
+
 
 
 
