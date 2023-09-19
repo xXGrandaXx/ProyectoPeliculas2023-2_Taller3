@@ -26,7 +26,6 @@ Al ejecutar todo el script (incluyendo las lineas comentadas) se genera el archi
 que se va a utilizar para alimentar la base de datos de películas. En este caso, por tiempo, no se va a ejecutar el script completo y el archivo resultante se puede consultar en [movie_descriptions.json](movie_descriptions.json)
 
 
-
 Ahora se utilizará la información en el archivo [movie_descriptions.json](movie_descriptions.json) para agregar items a la base de datos. Para esto nos vamos a dirigir a la carpeta ``DjangoProjectBase``. Asumiendo que la consola está en el directorio raíz del proyecto ``ProyectoPeliculas2023-2_Taller3``, escriba lo siguiente:
 
 ````shell
@@ -67,7 +66,7 @@ python manage.py makemigrations
 python manage.py migrate
 ````
 
-Además, en la carpeta ``media/movie/images`` debe agregar la figura [default.jpg](aux_files/default.jpg). (puede ser cualquier figura).
+Además, en la carpeta ``media/movie/images`` debe agregar la figura [default.jpg](aux_files/default.jpg) (puede ser cualquier figura).
 
 Una vez haya terminado estos pasos y copiado el contenido del archivo [add_descriptions_db.py](aux_files/add_descriptions_db.py) en ``movie/management/commands/add_descriptions.py``, en la consola va a ejecutar el siguiente comando:
 
