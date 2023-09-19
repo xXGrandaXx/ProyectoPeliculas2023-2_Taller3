@@ -34,3 +34,8 @@ Una vez haya copiado el archivo en la ubicación mencionada, asegúrese de que l
 ````shell
 python manage.py modify_image_paths
 ````
+
+Cuando ejecute el servidor podrá notar que la imagen de cada película corresponde a la ilustración creada por la API de generación de imágenes
+
+![Fork 1](imgs/mp2.png)
+
