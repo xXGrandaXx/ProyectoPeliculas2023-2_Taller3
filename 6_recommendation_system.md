@@ -32,9 +32,9 @@ Al ejecutar el Script puede ver lo siguiente:
 
 ![Fork 1](imgs/rs2.png)
 
-En este caso, los embeddings nos dicen que Salvando al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
+En este caso, los embeddings nos dicen que Salvar al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
 
-Además nos dicen que si quisiera ver una película de la segunda guerra mundial, debería ver Salvando al soldado Ryan.
+Además nos dicen que si quisiera ver una película de la segunda guerra mundial, debería ver Salvar al soldado Ryan.
 
 
 ### Ejercicio 1
