@@ -1,4 +1,4 @@
-![imagen](https://github.com/jdmartinev/ProyectoPeliculas2023-2_Taller3/assets/110254820/99c95d74-6719-4cc1-89bb-fd3b645ea58f)## Descripciones de películas
+## Descripciones de películas
 
 En esta etapa del proyecto se utilizará la API de openAI para generar descripciones de algunas películas que se agregarán a la base de datos.
 Para esto, el archivo ``movie_titles.json`` que se encuentra en la raíz del proyecto, tiene una lista de películas a las que se le agregará información.
