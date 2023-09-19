@@ -1,7 +1,11 @@
 ## Fork y clone
 
-Haga un fork del proyecto, seleccionando la opción __Fork__.
-![Fork 1](imgs/fork1.png)
+Haga un fork del proyecto, seleccionando la opción ``Fork``.
+<div align="center">
+  <a>
+    <img src="imgs/fork1.png">
+  </a>
+</div>
 
 Seleccione el botón __Create fork__.
 ![Fork 2](imgs/fork2.png)
