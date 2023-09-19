@@ -16,7 +16,7 @@ Funciona de la siguiente manera:
 
 Fórmula: La similitud de coseno entre dos vectores AA y BB se calcula como el producto punto de los vectores dividido por el producto de sus magnitudes:
 
-$\text{similitud}(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$
+$similitud(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$
 
 
 
