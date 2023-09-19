@@ -11,3 +11,4 @@ El workshop se dividirá en diferentes etapas:
 Debemos empezar clonando el proyecto base e instalando las librerías necesarias. 
 
 ## Fork y clone
+![Texto alternativo](img/for1.png)
