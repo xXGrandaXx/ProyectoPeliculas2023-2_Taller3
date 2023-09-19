@@ -3,7 +3,6 @@ import json
 import os
 import openai
 from openai.embeddings_utils import get_embedding, cosine_similarity
-import sklearn
 import numpy as np
 
 _ = load_dotenv('openAI.env')
