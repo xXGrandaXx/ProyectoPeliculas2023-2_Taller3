@@ -56,7 +56,15 @@ Almacene este archivo en la carpeta raíz del proyecto
   </a>
   </div>
 
-Abra con un editor de texto el archivo ``.gitignore`` que se encuentra en la raíz del proyecto. En este archivo se deben poner los nombres de los archivos que no queremos que se compartan en el repositorio en GitHub.
+Cree el archivo ``.gitignore`` en la raíz del proyecto (si el archivo ya está creado, puede omitir este paso). Para crearlo, debe ubicarse en la raíz del proyecto y escribir la instrucción ``echo. > .gitignore`
+
+ <div align="center">
+  <a>
+    <img src="imgs/key7_5.png">
+  </a>
+ </div>
+
+Abra con un editor de texto el archivo ``.gitignore`` que se encuentra en la raíz del proyecto. En este archivo se deben poner los nombres de los archivos que no queremos que se compartan en el repositorio en GitHub
 
    <div align="center">
   <a>
