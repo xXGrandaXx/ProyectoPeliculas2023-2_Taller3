@@ -1,4 +1,4 @@
-![imagen](https://github.com/jdmartinev/ProyectoPeliculas2023-2_Taller3/assets/110254820/99c95d74-6719-4cc1-89bb-fd3b645ea58f)## Descripciones de películas
+## Descripciones de películas
 
 En esta etapa del proyecto se utilizará la API de openAI para generar descripciones de algunas películas que se agregarán a la base de datos.
 Para esto, el archivo ``movie_titles.json`` que se encuentra en la raíz del proyecto, tiene una lista de películas a las que se le agregará información.
@@ -34,9 +34,9 @@ Ahora dentro de la carpeta de la app movie debe crear una carpeta management y d
 
 ![Fork 1](imgs/md3.png)
 
-Este archivo, que se utilizará para pasar la información del archivo .json a la base de datos de películas de la aplicación de Django. El contenido de este archivo se encuentra en [add_descriptions_db.py](aux_files/add_descriptions_db.py)
+Este archivo se utilizará para pasar la información del archivo ``movie_descriptions.json`` a la base de datos de películas de la aplicación de Django. El contenido de este archivo se encuentra en [add_descriptions_db.py](aux_files/add_descriptions_db.py)
 
-Para evitar un error dado que las películas no tienen imágenes, debe ir al archivo movie/models.py y modificar la línea 8 de la siguiente forma:
+Para evitar un error dado que las películas no tienen imágenes, debe ir al archivo ``movie/models.py`` y modificar la línea 8 de la siguiente forma:
 
 ````python
 image = models.ImageField(upload_to='movie/images/', default = 'movie/images/default.jpg')
