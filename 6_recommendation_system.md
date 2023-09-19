@@ -37,7 +37,9 @@ En este caso, los embeddings nos dicen que Salvando al soldado Ryan es más pare
 Además nos dicen que si quisiera ver una película de la segunda guerra mundial, debería ver Salvando al soldado Ryan.
 
 
-__Ejercicio 1:__ Modifique el modelo Movie y agregue un campo adicional que sea el embedding de la descripción.
+### Ejercicio 1
+
+Modifique el modelo Movie y agregue un campo adicional que sea el embedding de la descripción.
 
 Un vector no se puede agregar directamente a la base de datos, por lo tanto, deberá crear un archivo binario que pueda almacenar como un campo de tipo __BinaryField__.
 
