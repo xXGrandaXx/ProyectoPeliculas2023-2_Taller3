@@ -21,7 +21,12 @@ que se va a utilizar para alimentar la base de datos de películas. Para esto no
 ````shell
 cd DjangoProjectBase
 ````
+Si corre el servidor se dará cuenta que este es el proyecto que se creó en el workshop 2
 
+````shell
+python manage.py runserver
+````
+![Fork 1](imgs/md2.png)
 
 
 
