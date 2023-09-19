@@ -14,11 +14,9 @@ La similitud de coseno mide el coseno del ángulo entre dos vectores, en este ca
 
 Funciona de la siguiente manera:
 
-    Fórmula: La similitud de coseno entre dos vectores AA y BB se calcula como el producto punto de los vectores dividido por el producto de sus magnitudes:
+Fórmula: La similitud de coseno entre dos vectores AA y BB se calcula como el producto punto de los vectores dividido por el producto de sus magnitudes:
 
-\[
-similitud(A,B)=A⋅B∥A∥∥B∥similitud(A,B)=∥A∥∥B∥A⋅B
-\]​
+\[ \text{similitud}(A, B) = \frac{A \cdot B}{\|A\| \|B\|} \]
 
 Donde $A⋅B$ es el producto punto de los vectores y $∥A∥$ y $∥B∥$ son las magnitudes (o normas) de los vectores A y B respectivamente.
 
