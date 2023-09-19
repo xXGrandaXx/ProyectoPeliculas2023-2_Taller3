@@ -13,6 +13,7 @@ Las instrucciones de cada etapa del proyecto son las siguientes:
 3. [Instalar las librerías necesarias](3_Instalaciones.md)
 4. [Descripción de las películas](4_movie_descriptions.md)
 5. [Ilustraciones de las películas](5_movie_pictures.md)
+6. [Sistema de recomendación](6_recommendation_system.md)
 
 
 
