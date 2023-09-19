@@ -15,6 +15,12 @@ Cuando ejecute el script, deberá ver en la consola algo de la siguiente forma:
 
 Puede ver que se imprime el nombre de la película, el prompt completo y la descripción obtenida.
 
+El archivo que se genera al correr todo el script (incluyendo las lineas comentadas) genera un archivo ``movie_descriptions.json``
+que se va a utilizar para alimentar la base de datos de películas. Para esto nos vamos a dirigir a la carpeta ``DjangoProjectBase``. Asumiendo que la consola está en el directorio raíz del proyecto ``ProyectoPeliculas2023-2_Taller3``, en la consola escriba lo siguiente:
+
+````shell
+cd DjangoProjectBase
+````
 
 
 
