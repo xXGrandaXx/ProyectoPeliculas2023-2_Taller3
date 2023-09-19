@@ -42,7 +42,7 @@ Para evitar un error dado que las películas no tienen imágenes, debe ir al arc
 image = models.ImageField(upload_to='movie/images/', default = 'movie/images/default.jpg')
 ````
 
-![Fork 1](imgs/md5.png)
+![Fork 1](imgs/md6.png)
 
 Además, en la carpeta media/movie/images debe agregar la figura [default.jpg](aux_files/default.jpg). (puede ser cualquier figura).
 
