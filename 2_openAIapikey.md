@@ -16,7 +16,7 @@ Después, debe desplegar el menú ``Personal`` e ingresar a ``View API keys``
   </a>
   </div>
 
-  En esta nueva pantalla debe hacer clic en ``Create new secret api key`` 
+  En esta nueva pantalla debe hacer clic en ``Create new secret key`` 
 
    <div align="center">
   <a>
