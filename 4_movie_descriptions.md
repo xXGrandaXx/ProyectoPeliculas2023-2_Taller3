@@ -28,5 +28,11 @@ python manage.py runserver
 ````
 ![Fork 1](imgs/md2.png)
 
+Ahora dentro de la carpeta de la app movie debe crear una carpeta management y dentro de esta una carpeta commands. Después, debe crear el archivo add_descriptions_db.py.
+
+![Fork 1](imgs/md2.png)
+
+
+
 
 
