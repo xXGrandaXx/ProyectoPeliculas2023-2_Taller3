@@ -34,6 +34,14 @@ Ahora dentro de la carpeta de la app movie debe crear una carpeta management y d
 
 Este archivo, que se utilizará para pasar la información del archivo .json a la base de datos de películas de la aplicación de Django. El contenido de este archivo se encuentra en [add_descriptions_db.py](aux_files/add_descriptions_db.py)
 
+Una vez haya copiado el contenido del archivo, en la consola va a ejecutar el siguiente comando:
+
+````shell
+python manage.py add_descriptions_db
+````
+Cuando termine de ejecutarse, debe ver un mensaje como el siguiente:
+
+![Fork 1](imgs/md4.png)
 
 
 
