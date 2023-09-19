@@ -36,7 +36,7 @@ Copie la API key y haga clic en ``Done``. Tenga en cuenta que después de cerrar
 
    <div align="center">
   <a>
-    <img src="imgs/key5.PNG">
+    <img src="imgs/key5.png">
   </a>
   </div>
 
