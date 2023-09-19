@@ -2,11 +2,15 @@
 
 En este workshop integraremos algunas herramientas de Inteligencia Artificial a nuestro proyecto de películas. 
 
-- Utilizaremos modelos de lenguaje (GPT desde la API de openAI) para crear items nuevos a nuestra base de datos.
-- Utilizaremos la API de creación de imágenes para generar imágenes representativas de cada ítem de la base de datos.
-- Crearemos un sistema de recomendación utilizando embeddings
+- Utilizaremos modelos de lenguaje (GPT desde la API de openAI) para crear elementos nuevos (películas) para nuestra base de datos.
+- Utilizaremos la API de creación de imágenes para generar imágenes representativas de cada película de la base de datos.
+- Crearemos un sistema de recomendación utilizando embeddings.
 
 El workshop se dividirá en diferentes etapas:
 
-Debemos empezar colnando el proyecto base e instalando las librerías necesarias. Para esto, vamos a acceder al siguinte 
+Debemos empezar clonando el proyecto base e instalando las librerías necesarias. 
 
+## Fork y clone
+
+Hcemos un fork del proyecto, seleccionando la opción Fork que se encuentra en la parte superior del proyecto en GitHub.
+![Fork 1](imgs/fork1.png)
