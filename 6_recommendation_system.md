@@ -8,4 +8,4 @@ __Concepto Básico:__ Un embedding es básicamente una proyección de un objeto 
 
 __Utilidad:__ Estos vectores capturan la semántica y las relaciones contextuales entre las palabras. Palabras con significados similares o que a menudo aparecen en el mismo contexto tendrán embeddings similares, es decir, sus vectores estarán cerca en el espacio vectorial.
 
-El script (movie_recommendations.py)[movie_recommendations.py]
+El script [movie_recommendations.py](movie_recommendations.py)
