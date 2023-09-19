@@ -15,7 +15,7 @@ Debemos empezar clonando el proyecto base e instalando las librerías necesarias
 1. Hacemos un fork del proyecto, seleccionando la opción __Fork__.
 ![Fork 1](imgs/fork1.png)
 
-2. Seleccionamos el botón __create Fork__.
+2. Seleccionamos el botón __Create fork__.
 ![Fork 2](imgs/fork2.png)
 
 3. Copiamos el enlace del proyecto, seleccionando el botón __< > Code__, y luego, la opción __copiar__.
