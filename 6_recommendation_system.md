@@ -30,7 +30,7 @@ El script [movie_recommendations.py](movie_recommendations.py) muestra como pode
 
 Al ejecutar el Script puede ver lo siguiente:
 
-![Fork 1](imgs/sr2.png)
+![Fork 1](imgs/rs2.png)
 
 En este caso, los embeddings nos dicen que Salvando al soldado Ryan es más parecido a la Lista Schindler. Tiene sentido porque las dos películas son de la segunda guerra mundial. 
 
