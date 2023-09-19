@@ -18,8 +18,6 @@ Fórmula: La similitud de coseno entre dos vectores AA y BB se calcula como el p
 
 $similitud(A, B) = \frac{A \cdot B}{\|A\| \|B\|}$
 
-
-
 Donde $A⋅B$ es el producto punto de los vectores y $∥A∥$ y $∥B∥$ son las magnitudes (o normas) de los vectores A y B respectivamente.
 
 Rango de Valores: La similitud de coseno produce un valor entre -1 y 1. Un valor de 1 indica que los vectores son idénticos en dirección, un valor de -1 indica que son opuestos y un valor de 0 indica que son ortogonales (no relacionados).
@@ -29,6 +27,9 @@ Aplicación a Embeddings: Cuando se utiliza con embeddings, la similitud de cose
 En resumen, la similitud de coseno compara la orientación de dos vectores en lugar de su magnitud, siendo una métrica esencial para evaluar la similitud semántica entre embeddings en el procesamiento del lenguaje natural.
 
 El script [movie_recommendations.py](movie_recommendations.py) muestra como podemos utilizar los embeddings y la similitud de coseno para recomendar películas a partir de un prompt.
+
+
+![Fork 1](imgs/sr2.png)
 
 __Ejercicio 1:__ Modifique el modelo Movie y agregue un campo adicional que sea el embedding de la descripción.
 
