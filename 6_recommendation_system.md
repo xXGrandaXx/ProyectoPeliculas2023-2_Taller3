@@ -98,3 +98,9 @@ class Command(BaseCommand):
         
 ````
 
+### Entregable en clase 
+
+Archivo pdf con:
+
+1. GitHub del proyecto
+2. Pantallazo de un par de items de la base de datos donde se vea que los embeddings ya están generados. 
