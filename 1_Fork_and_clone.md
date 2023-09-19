@@ -7,11 +7,23 @@ Haga un fork del proyecto, seleccionando la opción ``Fork``.
   </a>
 </div>
 
-Seleccione el botón __Create fork__.
-![Fork 2](imgs/fork2.png)
+Seleccione el botón ``Create fork``.
+<div align="center">
+  <a>
+    <img src="imgs/fork2.png">
+  </a>
+</div>
 
-Copie el enlace del git del repositorio, seleccionando el botón __< > Code__, y luego, la opción __copiar__.
-![Clone 1](imgs/fork3.png)
+Copie el enlace del git del repositorio, seleccionando el botón ``< > Code``, y luego, la opción ``copiar``.
+<div align="center">
+  <a>
+    <img src="imgs/fork3.png">
+  </a>
+</div>
 
-4. Clone el repositorio en la máquina local, para esto ubíquese en la carpeta (local) en la que quedará almacenado el proyecto. Luego, use la instrucción __git clone__ seguida del enlace git que acaba de copiar.
-![Clone 2](imgs/fork4.png)
+Clone el repositorio en la máquina local, para esto ubíquese en la carpeta (local) en la que quedará almacenado el proyecto. Luego, use la instrucción ``git clone`` seguida del enlace git que acaba de copiar.
+<div align="center">
+  <a>
+    <img src="imgs/fork4.png">
+  </a>
+</div>
