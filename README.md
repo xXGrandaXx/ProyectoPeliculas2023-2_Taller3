@@ -12,5 +12,14 @@ Debemos empezar clonando el proyecto base e instalando las librerías necesarias
 
 ## Fork y clone
 
-Hcemos un fork del proyecto, seleccionando la opción Fork que se encuentra en la parte superior del proyecto en GitHub.
+1. Hacemos un fork del proyecto, seleccionando la opción __Fork__.
 ![Fork 1](imgs/fork1.png)
+
+2. Seleccionamos el botón __create Fork__.
+![Fork 2](imgs/fork2.png)
+
+3. Copiamos el enlace del proyecto, seleccionando el botón __< > Code__, y luego, la opción __copiar__.
+![Clone 1](imgs/fork3.png)
+
+4. Clonamos el repositorio del proyecto en la máquina local, para esto nos ubicamos en la carpeta (local) en la que quedará almacenado el proyecto. Luego, usamos la instrucción __git clone__ seguida del enlace que acabamos de copiar.
+![Clone 2](imgs/fork4.png)
