@@ -9,15 +9,17 @@ En este archivo se pueden ver dos funcionalidades principales:
 1. Definición de una función auxiliar (__get_completion__) para comunicarse con la API
 2. Creación de un __prompt__ que nos ayuda a pedir de forma correcta la descripción de las películas
 
-Cuando ejecute el script, deberá ver en la consola algo de la siguiente forma:
-
-![Fork 1](imgs/md1.png)
-
-Recuerde que para ejecutar el script, debe dirigirse en la consola a la ubicación del archivo y escribir:
+Ejecute el script, para esto debe dirigirse en la consola a la ubicación del archivo y escribir:
 
 ````bash
 python movie_descriptions.py
 ````
+
+Cuando ejecute el script, deberá ver en la consola algo de la siguiente forma:
+
+![Fork 1](imgs/md1.png)
+
+
 
 Puede ver que se imprime el nombre de la película, el prompt completo y la descripción obtenida.
 
