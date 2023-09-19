@@ -21,7 +21,7 @@ En este archivo se deben listar todas las librerías necesarias para el funciona
 
 Por ahora, dado que no requerimos versiones específicas, se puede dejar el archivo como está.
 
-después, desde la consola ubicada en la carpeta donde se encuentra el archivo ``requirements.txt`` va a escribir lo siguiente:
+Después, desde la consola ubicada en la carpeta donde se encuentra el archivo ``requirements.txt`` escriba lo siguiente:
 
 ``pip install -r requirements.txt``
 
