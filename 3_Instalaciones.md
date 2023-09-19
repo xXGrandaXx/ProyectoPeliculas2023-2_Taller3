@@ -7,7 +7,7 @@ Adicional a estas librerías, vamos a instalar lo siguiente:
 - ``openai``: Librería para acceder a modelos de inteligencia artificial
 -  ``python-dotenv``: Manejo de api_keys de forma segura
 
-Abra archivo ``requirements.txt``. Notará que este archivo tiene la siguiente estructura:
+Abra el archivo ``requirements.txt``. Notará que este archivo tiene la siguiente estructura:
 
  <div align="center">
   <a>
