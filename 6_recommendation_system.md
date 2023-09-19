@@ -48,3 +48,27 @@ emb = get_embedding(desc,engine='text-embedding-ada-002')
 emb_binary = np.array(emb).tobytes()
 rec_emb = list(np.frombuffer(emb_binary, dtype=arr.dtype))
 ````
+
+El modelo Movie lo debe modificar de la siguiente forma:
+
+````python
+def get_default_array():
+  default_arr = np.random.rand(1536)  # Adjust this to your desired default array
+  return default_arr.tobytes()
+
+class Movie(models.Model):
+  title = models.CharField(max_length=100)
+  description = models.CharField(max_length=250)
+  emb = models.BinaryField(default=get_default_array)
+  image = models.ImageField(upload_to='movie/images/', default = 'movie/images/default.jpg')
+  url = models.URLField(blank=True)
+
+  def __str__(self):
+    return self.text
+````
+
+Note que está agregando un campo ``emb`` de tipo ``models.BinaryField``
+
+Recuerde que cada que se hace una modificación a la base de datos debe hacer las migraciones.
+
+Finalmente, para modificar los items de la base de datos (en este caso agregar los embeddings), puede crear un archivo ``add_embeddings_db.py`` en la carpeta ``movie/management/command``. Siga la estructura del archivo [aux_files/modify_image_paths_db.py](aux_files/modify_image_paths_db.py)
