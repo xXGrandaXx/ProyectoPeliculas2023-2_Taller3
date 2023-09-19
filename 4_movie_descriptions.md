@@ -13,6 +13,12 @@ Cuando ejecute el script, deberá ver en la consola algo de la siguiente forma:
 
 ![Fork 1](imgs/md1.png)
 
+Recuerde que para ejecutar el script, debe dirigirse en la consola a la ubicación del archivo y escribir:
+
+````bash
+python movie_descriptions.py
+````
+
 Puede ver que se imprime el nombre de la película, el prompt completo y la descripción obtenida.
 
 El archivo que se genera al correr todo el script (incluyendo las lineas comentadas) genera un archivo ``movie_descriptions.json``
@@ -28,7 +34,13 @@ python manage.py runserver
 ````
 ![Fork 1](imgs/md2.png)
 
-__Nota:__ Antes de continuar es necesario borrar la base de datos existente, hacer las migraciones, y crear de nuevo las credenciales de super-usuario.
+__Nota:__ Antes de continuar es necesario __borrar__ la base de datos existente, hacer las migraciones, y crear de nuevo las credenciales de super-usuario.
+
+````shell
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+````
 
 Ahora dentro de la carpeta de la app movie debe crear una carpeta management y dentro de esta una carpeta commands. Después, debe crear el archivo add_descriptions_db.py.
 
@@ -41,12 +53,18 @@ Para evitar un error dado que las películas no tienen imágenes, debe ir al arc
 ````python
 image = models.ImageField(upload_to='movie/images/', default = 'movie/images/default.jpg')
 ````
+![Fork 1](imgs/md6.png)
 
-![Fork 1](imgs/md5.png)
+Dado que se modificó ``models.py`` se deben hacer las migraciones.
 
-Además, en la carpeta media/movie/images debe agregar la figura [default.jpg](aux_files/default.jpg). (puede ser cualquier figura).
+````shell
+python manage.py makemigrations
+python manage.py migrate
+````
 
-Una vez haya copiado el contenido del archivo, en la consola va a ejecutar el siguiente comando:
+Además, en la carpeta ``media/movie/images`` debe agregar la figura [default.jpg](aux_files/default.jpg). (puede ser cualquier figura).
+
+Una vez haya terminado estos pasos y copiado el contenido del archivo [add_descriptions_db.py](aux_files/add_descriptions_db.py) en ``movie/management/commands/add_descriptions.py``, en la consola va a ejecutar el siguiente comando:
 
 ````shell
 python manage.py add_descriptions_db
@@ -55,9 +73,13 @@ Cuando termine de ejecutarse, debe ver un mensaje como el siguiente:
 
 ![Fork 1](imgs/md4.png)
 
-Puede ejecutar el servidor. Posiblemente tendrá un error dado que no todas las películas tienen imágenes.
+Puede ejecutar el servidor y verá algo de la siguiente forma:
 
-Sin embargo puede ir a la página de administrador 127.0.0.1:8000/admin/ y cuando ingrese con las credenciales podrá observar que las películas quedaron correctamente almacenadas en la base de datos.
+![Fork 1](imgs/md7.png)
+
+Además puede ir a la página de administrador 127.0.0.1:8000/admin/ y cuando ingrese con las credenciales podrá observar que las películas quedaron correctamente almacenadas en la base de datos. Además, puede ingresar a alguna de ellas y ver la descripción
+
+![Fork 1](imgs/md8.png)
 
 
 
