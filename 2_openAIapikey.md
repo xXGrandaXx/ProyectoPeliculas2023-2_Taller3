@@ -56,7 +56,7 @@ Almacene este archivo en la carpeta raíz del proyecto
   </a>
   </div>
 
-Cree el archivo ``.gitignore`` en la raíz del proyecto (__si el archivo ya está creado, puede omitir este paso__). Para crearlo, debe ubicarse en la raíz del proyecto y escribir la instrucción ``echo. > .gitignore``
+Verifique que el archivo ``.gitignore`` está en la raíz del proyecto (__si el archivo ya está creado, puede omitir este paso__). Si no está creado, debe ubicarse en la raíz del proyecto y escribir la instrucción ``echo. > .gitignore``
 
  <div align="center">
   <a>
