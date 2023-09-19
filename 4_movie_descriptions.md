@@ -1,4 +1,4 @@
-## Descripciones de películas
+![imagen](https://github.com/jdmartinev/ProyectoPeliculas2023-2_Taller3/assets/110254820/99c95d74-6719-4cc1-89bb-fd3b645ea58f)## Descripciones de películas
 
 En esta etapa del proyecto se utilizará la API de openAI para generar descripciones de algunas películas que se agregarán a la base de datos.
 Para esto, el archivo ``movie_titles.json`` que se encuentra en la raíz del proyecto, tiene una lista de películas a las que se le agregará información.
@@ -28,11 +28,23 @@ python manage.py runserver
 ````
 ![Fork 1](imgs/md2.png)
 
+__Nota:__ Antes de continuar es necesario borrar la base de datos existente, hacer las migraciones, y crear de nuevo las credenciales de super-usuario.
+
 Ahora dentro de la carpeta de la app movie debe crear una carpeta management y dentro de esta una carpeta commands. Después, debe crear el archivo add_descriptions_db.py.
 
 ![Fork 1](imgs/md3.png)
 
 Este archivo, que se utilizará para pasar la información del archivo .json a la base de datos de películas de la aplicación de Django. El contenido de este archivo se encuentra en [add_descriptions_db.py](aux_files/add_descriptions_db.py)
+
+Para evitar un error dado que las películas no tienen imágenes, debe ir al archivo movie/models.py y modificar la línea 8 de la siguiente forma:
+
+````python
+image = models.ImageField(upload_to='movie/images/', default = 'movie/images/default.jpg')
+````
+
+![Fork 1](imgs/md5.png)
+
+Además, en la carpeta media/movie/images debe agregar la figura [default.jpg](aux_files/default.jpg). (puede ser cualquier figura).
 
 Una vez haya copiado el contenido del archivo, en la consola va a ejecutar el siguiente comando:
 
@@ -42,6 +54,10 @@ python manage.py add_descriptions_db
 Cuando termine de ejecutarse, debe ver un mensaje como el siguiente:
 
 ![Fork 1](imgs/md4.png)
+
+Puede ejecutar el servidor. Posiblemente tendrá un error dado que no todas las películas tienen imágenes.
+
+Sin embargo puede ir a la página de administrador 127.0.0.1:8000/admin/ y cuando ingrese con las credenciales podrá observar que las películas quedaron correctamente almacenadas en la base de datos.
 
 
 
