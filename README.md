@@ -11,4 +11,6 @@ El workshop se dividirá en diferentes etapas:
 Debemos empezar clonando el proyecto base e instalando las librerías necesarias. 
 
 ## Fork y clone
-![Texto alternativo](imgs/fork1.png)
+
+Hcemos un fork del proyecto, seleccionando la opción Fork que se encuentra en la parte superior del proyecto en GitHub.
+![Fork 1](imgs/fork1.png)
