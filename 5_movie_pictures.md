@@ -27,7 +27,7 @@ Se estaría consultando la API de openAI de generación de imágenes para crear 
 
 Esta carpeta se debe descomprimir y las imágenes se deben copiarlas en el path ``media/movie/images`` del proyecto ``DjangoProjectBase``
 
-Ahora, se creará un archivo ``modify_image_paths_db.py`` en la carpeta ``movie/management/commands``. En este archivo se modificará la imagen de cada película en la base de datos para que sea la ilustración generada por la API de generación de imágenes. Este archivo lo puede encontrar acá: [modify_image_paths.py](aux_files/modify_image_paths.py).
+Ahora, se debe crear el archivo ``modify_image_paths_db.py`` en la carpeta ``movie/management/commands``. Con este archivo se modificará la imagen de cada película en la base de datos para que sea la ilustración generada por la API de generación de imágenes. Este archivo lo puede encontrar acá: [modify_image_paths.py](aux_files/modify_image_paths_db.py).
 
 Una vez haya copiado el archivo en la ubicación mencionada, asegúrese de que la consola esté ubicada en ``DjangoProjectBase`` y ejecute el comando:
 
