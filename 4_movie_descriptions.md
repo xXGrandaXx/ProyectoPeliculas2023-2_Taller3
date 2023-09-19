@@ -13,6 +13,12 @@ Cuando ejecute el script, deberá ver en la consola algo de la siguiente forma:
 
 ![Fork 1](imgs/md1.png)
 
+Recuerde que para ejecutar el script, debe dirigirse en la consola a la ubicación del archivo y escribir:
+
+````bash
+python movie_descriptions.py
+````
+
 Puede ver que se imprime el nombre de la película, el prompt completo y la descripción obtenida.
 
 El archivo que se genera al correr todo el script (incluyendo las lineas comentadas) genera un archivo ``movie_descriptions.json``
