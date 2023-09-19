@@ -32,4 +32,36 @@ Después, debe desplegar el menú ``Personal`` e ingresar a ``View API keys``
   </a>
   </div>
 
+Copie la API key y haga clic en ``Done``. Tenga en cuenta que después de cerrar esta ventana no tendrá de nuevo acceso a esta llave, por lo que debe almacenarla en algún documento.
+
+   <div align="center">
+  <a>
+    <img src="imgs/key5.png">
+  </a>
+  </div>
+
+Almacene su API key en un documento ``.env``, por ejemplo ``openAI.env``. Esto lo puede hacer en un editor de texto como Sublime o VScode 
+
+   <div align="center">
+  <a>
+    <img src="imgs/key6.png">
+  </a>
+  </div>
   
+Almacene este archivo en la carpeta raíz del proyecto
+
+   <div align="center">
+  <a>
+    <img src="imgs/key7.png">
+  </a>
+  </div>
+
+Abra con un editor de texto el archivo ``.gitignore`` que se encuentra en la raíz del proyecto. En este archivo se deben poner los nombres de los archivos que no queremos que se compartan en el repositorio en GitHub.
+
+   <div align="center">
+  <a>
+    <img src="imgs/key8.png">
+  </a>
+  </div>
+
+  De esta forma su API key estará segura y no tendrá que compartirla ni escribirla en ningún otro documento.
