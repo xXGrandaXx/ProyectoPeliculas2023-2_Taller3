@@ -120,6 +120,6 @@ Archivo pdf con:
 Para comprobar que los embeddings se crearon correctamente, debe crear un archivo ``check_embeddings_db.py`` en la ruta ``movie/management/command``. El archivo lo puede ver en [check_embeddings_db.py](aux_files/check_embeddings_db.py).
 Cuando lo ejecute deberá ver en la consola algo de esta forma:
 
-![Fork 1](imgs/sr3.svg)
+![Fork 1](imgs/sr3.png)
 
 
