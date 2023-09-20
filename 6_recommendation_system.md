@@ -132,7 +132,7 @@ Archivo pdf con:
 4. Pantallazo de un par de items de la base de datos donde se vea que los embeddings ya están generados
 5. Pantallazo del resultado de check_rec_sys_db.py
 
-### Entregable para el 27 de septiembre de 2023
+### Entregable para el 27/28 de septiembre de 2023
 
 Debe convertir el sistema de recomendación en una app del proyecto. Debe tener un botón de acceso parecido al de News.
 En esta app debe haber un campo para escribir el __prompt__ que generará la recomendación. Ejemplo: Película de la segunda guerra mundial. El sistema deberá mostrar la película recomendada, la imagen y la descripción.
