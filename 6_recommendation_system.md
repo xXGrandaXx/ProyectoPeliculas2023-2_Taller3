@@ -68,7 +68,7 @@ def get_default_array():
 class Movie(models.Model):
   title = models.CharField(max_length=100)
   description = models.CharField(max_length=250)
-  emb = models.BinaryField(default=get_default_array)
+  emb = models.BinaryField(default=get_default_array())
   image = models.ImageField(upload_to='movie/images/', default = 'movie/images/default.jpg')
   url = models.URLField(blank=True)
 
