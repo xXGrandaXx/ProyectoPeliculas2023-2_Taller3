@@ -115,4 +115,11 @@ class Command(BaseCommand):
 Archivo pdf con:
 
 1. GitHub del proyecto
-2. Pantallazo de un par de items de la base de datos donde se vea que los embeddings ya están generados. 
+2. Pantallazo de un par de items de la base de datos donde se vea que los embeddings ya están generados.
+
+Para comprobar que los embeddings se crearon correctamente, debe crear un archivo ``check_embeddings_db.py`` en la ruta ``movie/management/command``. El archivo lo puede ver en [check_embeddings_db.py](aux_files/check_embeddings_db.py).
+Cuando lo ejecute deberá ver en la consola algo de esta forma:
+
+![Fork 1](imgs/sr3.svg)
+
+
