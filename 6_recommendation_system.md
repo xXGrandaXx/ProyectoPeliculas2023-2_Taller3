@@ -110,16 +110,26 @@ class Command(BaseCommand):
         
 ````
 
+Para comprobar que los embeddings se crearon correctamente, debe crear un archivo ``check_embeddings_db.py`` en la ruta ``movie/management/command``. El archivo lo puede ver en [check_embeddings_db.py](aux_files/check_embeddings_db.py).
+Cuando lo ejecute deberá ver en la consola algo de esta forma:
+
+![Fork 1](imgs/sr3.png)
+
+Finalmente, para comprobar que el sistema de recomendación funciona dentro de la aplicación, cree un archivo ``check_rec_sys_db.py`` en la ruta ``movie/management/command``. El archivo lo puede ver en [check_rec_sys_db.py](aux_files/check_rec_sys_db.py).
+
+Cuando lo ejecute deberá ver en la consola algo de esta forma:
+
+![Fork 1](imgs/sr4.png)
+
+
 ### Entregable en clase 
 
 Archivo pdf con:
 
 1. GitHub del proyecto
-2. Pantallazo de un par de items de la base de datos donde se vea que los embeddings ya están generados.
-
-Para comprobar que los embeddings se crearon correctamente, debe crear un archivo ``check_embeddings_db.py`` en la ruta ``movie/management/command``. El archivo lo puede ver en [check_embeddings_db.py](aux_files/check_embeddings_db.py).
-Cuando lo ejecute deberá ver en la consola algo de esta forma:
-
-![Fork 1](imgs/sr3.png)
+2. Pantallazo de las películas con la imagen default
+3. Pantallazo de las películas con la imagen generada con la API 
+4. Pantallazo de un par de items de la base de datos donde se vea que los embeddings ya están generados.
+5. Pantallazo del resultado de check_rec_sys_db.py
 
 
