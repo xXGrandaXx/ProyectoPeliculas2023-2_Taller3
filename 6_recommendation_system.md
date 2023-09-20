@@ -71,7 +71,7 @@ class Movie(models.Model):
   url = models.URLField(blank=True)
 
   def __str__(self):
-    return self.text
+    return self.title
 ````
 
 Note que está agregando un campo ``emb`` de tipo ``models.BinaryField``
