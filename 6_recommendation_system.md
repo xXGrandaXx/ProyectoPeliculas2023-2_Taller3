@@ -37,8 +37,6 @@ En este caso, los embeddings nos dicen que Salvar al soldado Ryan es más pareci
 Además nos dicen que si quisiera ver una película de la segunda guerra mundial, debería ver Salvar al soldado Ryan.
 
 
-### Ejercicio 1
-
 Modifique el modelo Movie y agregue un campo adicional que sea el embedding de la descripción.
 
 Un vector no se puede agregar directamente a la base de datos, por lo tanto, deberá crear un archivo binario que pueda almacenar como un campo de tipo __BinaryField__.
@@ -129,8 +127,8 @@ Archivo pdf con:
 1. GitHub del proyecto
 2. Pantallazo de las películas con la imagen default
 3. Pantallazo de las películas con la imagen generada con la API 
-4. Pantallazo de un par de items de la base de datos donde se vea que los embeddings ya están generados
-5. Pantallazo del resultado de check_rec_sys_db.py
+4. Pantallazo del resultado de la ejecución del archivo check_embeddings_db.py
+5. Pantallazo del resultado de la ejecución del arhivo check_rec_sys_db.py
 
 ### Entregable para el 27/28 de septiembre de 2023
 
