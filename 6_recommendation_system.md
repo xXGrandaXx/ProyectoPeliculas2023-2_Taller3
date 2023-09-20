@@ -80,30 +80,33 @@ Note que está agregando un campo ``emb`` de tipo ``models.BinaryField``
 
 Recuerde que cada que se hace una modificación al modelo se deben hacer las migraciones.
 
-Finalmente, para modificar los items de la base de datos (en este caso agregar los embeddings), puede crear un archivo ``add_embeddings_db.py`` en la carpeta ``movie/management/command``. Tome como ejemplo la estructura de los archivos [modify_image_paths_db.py](aux_files/modify_image_paths_db.py) y [add_descriptions_db.py](aux_files/add_descriptions_db.py)
+Finalmente, para modificar los items de la base de datos (en este caso agregar los embeddings), debe crear un archivo ``add_embeddings_db.py`` en la carpeta ``movie/management/command``. 
 
 ````python
 from django.core.management.base import BaseCommand
 from movie.models import Movie
 import json
 import os
-from dotenv import load_dotenv, find_dotenv
-
-_ = load_dotenv('../openAI.env')
-openai.api_key  = os.environ['openAI_api_key']
+import numpy as np
 
 class Command(BaseCommand):
     help = 'Modify path of images'
 
     def handle(self, *args, **kwargs):
-        ##Código para leer los embeddings del archivo .json 
-        items = Movie.objects.all()
-        for item in items:
-            #Código para convertir los embeddings en binarios
-            #Código para modificar el campo emb en la base de datos con el binario 
+        ##Código para leer los embeddings del archivo movie_descriptions_embeddings.json
+        json_file_path = '../movie_descriptions_embeddings.json'
+        # Load data from the JSON file
+        with open(json_file_path, 'r') as file:
+            movies = json.load(file)       
+  
+        for movie in movies:
+            emb = movie['embedding']
+            emb_binary = np.array(emb).tobytes()
+            item = Movie.objects.filter(title = movie['title']).first()
+            item.emb = emb_binary
             item.save()
         
-        self.stdout.write(self.style.SUCCESS(f'Successfully updated item embeddings'))
+        self.stdout.write(self.style.SUCCESS(f'Successfully updated item embeddings'))        
         
 ````
 
