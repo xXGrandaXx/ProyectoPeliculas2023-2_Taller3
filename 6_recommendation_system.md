@@ -132,12 +132,11 @@ Archivo pdf con:
 
 ### Entregable para el 27/28 de septiembre de 2023
 
-Debe convertir el sistema de recomendación en una app del proyecto. Debe tener un botón de acceso parecido al de News.
-En esta app debe haber un campo para escribir el __prompt__ que generará la recomendación. Ejemplo: Película de la segunda guerra mundial. El sistema deberá mostrar la película recomendada, la imagen y la descripción.
+Debe convertir el sistema de recomendación en una app del proyecto. Debe tener un nuevo item en la barra de navegaciónsimilar al de News. En esta app debe haber un campo para escribir el __prompt__ que generará la recomendación. Ejemplo: Película de la segunda guerra mundial. El sistema deberá mostrar la película recomendada, la imagen y la descripción. La vista debe ser similar a la búsqueda de película en la app Movies.
 
 Archivo pdf con:
 
 1. GitHub del proyecto
-2. Pantallazo de la app funcionando
+2. Pantallazo de la app funcionando con una búsqueda y el resultado
 
 
