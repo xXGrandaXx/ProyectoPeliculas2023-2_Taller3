@@ -47,7 +47,7 @@ response = get_completion(prompt)
 print(response)
 
 
-# Step 4: Podemos iterar sobre todas las películas para generar la descripción. Dado que esto 
+# Podemos iterar sobre todas las películas para generar la descripción. Dado que esto 
 #puede tomar bastante tiempo, el archivo con las descripciones para todas las películas es movie_descriptions.json
 """
 for i in range(len(movies)):
