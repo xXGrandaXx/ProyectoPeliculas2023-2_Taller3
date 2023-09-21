@@ -23,7 +23,7 @@ Archivo pdf con:
 2. Pantallazo de las películas con la imagen default
 3. Pantallazo de las películas con la imagen generada con la API 
 4. Pantallazo del resultado de la ejecución del archivo check_embeddings_db.py
-5. Pantallazo del resultado de la ejecución del arhivo check_rec_sys_db.py
+5. Pantallazo del resultado de la ejecución del archivo check_rec_sys_db.py
 
 ### Entregable para el 27/28 de septiembre de 2023
 
