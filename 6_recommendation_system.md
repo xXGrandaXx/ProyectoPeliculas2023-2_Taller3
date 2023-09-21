@@ -41,7 +41,7 @@ Modifique el modelo Movie y agregue un campo adicional que sea el embedding de l
 
 Un vector no se puede agregar directamente a la base de datos, por lo tanto, deberá crear un archivo binario que pueda almacenar como un campo de tipo __BinaryField__.
 
-En el siguiente ejemplo puede ver cómo crear un archivo binario a partir de una lista y como recuperar la lista a partir del archivo binario
+En el siguiente ejemplo puede ver cómo crear un archivo binario a partir de una lista y como recuperar la lista a partir del archivo binario, este ejemplo es ilustrativo, no es necesario ejecutarlo.
 
 ````python
 from openai.embeddings_utils import get_embedding, cosine_similarity
